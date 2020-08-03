@@ -1,11 +1,5 @@
 #include<stdio.h>
 #include<stdlib.h>
-#include<math.h>
-struct pkt
-{ char ch1;
-  char ch2[2];
-  char ch3;
-};
 char *convert(int n)
 { int m=n;
   int digit=0;
